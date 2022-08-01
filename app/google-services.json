@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "815164912698",
+    "firebase_url": "https://ptupokedexcharactermaker-default-rtdb.firebaseio.com",
+    "project_id": "ptupokedexcharactermaker",
+    "storage_bucket": "ptupokedexcharactermaker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815164912698:android:31e740dc9031ee0c687103",
+        "android_client_info": {
+          "package_name": "com.sylphid.ptupokedexcharactermaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815164912698-1g0c6f1c6r29cdiq2s430robop6jlkjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_PTbBN0i8Lw2iqNG_cLJmi112qhPUWCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815164912698-1g0c6f1c6r29cdiq2s430robop6jlkjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

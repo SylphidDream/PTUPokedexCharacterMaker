@@ -1,0 +1,181 @@
+{
+  "pokemon": [
+    null,
+    {
+      "base_stats": {
+        "attack": 5,
+        "defense": 5,
+        "hp": 5,
+        "special_attack": 7,
+        "special_defense": 7,
+        "speed": 5
+      },
+      "basic_information": {
+        "abilities": {
+          "adv_ability1": "Chlorophyll",
+          "adv_ability2": "Leaf Guard",
+          "basic_ability1": "Confidence",
+          "basic_ability2": "Photosynhesis",
+          "high_ability": "Courage"
+        },
+        "evolution": {
+          "stage1": {
+            "species": "Bulbasaur"
+          },
+          "stage2": {
+            "minimum_level": 15,
+            "species": "Ivysaur"
+          },
+          "stage3": {
+            "minimum_level": 30,
+            "species": "Venusaur"
+          }
+        },
+        "type": {
+          "type1": "Grass",
+          "type2": "Poison"
+        }
+      },
+      "breeding_information": {
+        "diet": {
+          "class1": "Herbivore",
+          "class2": "Photroph"
+        },
+        "egg_group": {
+          "group1": "Monster",
+          "group2": "Plant"
+        },
+        "gender_ratio": {
+          "female": 12.5,
+          "male": 87.5
+        },
+        "habitat": {
+          "habitat1": "Forest",
+          "habitat2": "Grassland",
+          "habitat3": "Rainforest"
+        },
+        "hatch_rate": {
+          "days": 10
+        }
+      },
+      "capabilities": {
+        "jump": {
+          "horizontal": 0,
+          "vertical": 2
+        },
+        "nature_walk": {
+          "nature1": "Grassland",
+          "nature2": "Forest"
+        },
+        "overland": 5,
+        "power": 2,
+        "swim": 3,
+        "underdog": true
+      },
+      "image": "https://archives.bulbagarden.net/media/upload/thumb/2/21/001Bulbasaur.png/600px-001Bulbasaur.png",
+      "moves": {
+        "egg": "",
+        "level_up": "",
+        "tm_hm": "",
+        "tutor": ""
+      },
+      "size": {
+        "height": {
+          "class": "small",
+          "imperial": {
+            "feet": 2,
+            "inches": 4
+          },
+          "metric": {
+            "meters": 0.7
+          }
+        },
+        "weight": {
+          "imperial": {
+            "pounds": 15.2
+          },
+          "metric": {
+            "kilogram": 6.9
+          }
+        }
+      },
+      "skills": {
+        "acrobatics": {
+          "modifier": 2,
+          "skill_rank": 2
+        },
+        "combat": {
+          "skill_rank": 2
+        },
+        "focus": {
+          "modifier": 1,
+          "skill_rank": 2
+        },
+        "perception": {
+          "skill_rank": 2
+        },
+        "stealth": {
+          "skill_rank": 2
+        }
+      },
+      "species": "Bulbasaur"
+    }
+  ],
+  "types": [
+    null,
+    {
+      "name": "Normal"
+    },
+    {
+      "name": "Fire"
+    },
+    {
+      "name": "Water"
+    },
+    {
+      "name": "Grass"
+    },
+    {
+      "name": "Electric"
+    },
+    {
+      "name": "Ice"
+    },
+    {
+      "name": "Fighting"
+    },
+    {
+      "name": "Poison"
+    },
+    {
+      "name": "Ground"
+    },
+    {
+      "name": "Flying"
+    },
+    {
+      "name": "Psychic"
+    },
+    {
+      "name": "Bug"
+    },
+    {
+      "name": "Rock"
+    },
+    {
+      "name": "Ghost"
+    },
+    {
+      "name": "Dragon"
+    },
+    {
+      "name": "Dark"
+    },
+    {
+      "name": "Steel"
+    },
+    {
+      "name": "Fairy"
+    }
+  ]
+}

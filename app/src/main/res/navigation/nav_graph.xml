@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/nav_starting_page"
+    >
+
+    <fragment
+        android:id="@+id/nav_starting_page"
+        android:name="com.sylphid.ptupokedexcharactermaker.view.StartingPageFragment"
+        >
+
+        <action
+            android:id="@+id/action_starting_page_to_character_sheet"
+            app:destination="@id/nav_character_sheet" />
+        <action
+            android:id="@+id/action_starting_page_to_pokedex"
+            app:destination="@id/nav_pokedex" />
+        <action
+            android:id="@+id/action_starting_page_to_abilities"
+            app:destination="@id/nav_abilities" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_character_sheet"
+        android:name="com.sylphid.ptupokedexcharactermaker.view.CharacterSheetFragment"
+        >
+
+        <action
+            android:id="@+id/action_character_sheet_to_trainer_class_list"
+            app:destination="@id/nav_trainer_class_list" />
+        <action
+            android:id="@+id/action_character_sheet_to_abilities"
+            app:destination="@id/nav_abilities" />
+        <action
+            android:id="@+id/action_nav_character_sheet_to_nav_pokedex2"
+            app:destination="@id/nav_pokedex" />
+        <action
+            android:id="@+id/action_nav_character_sheet_to_nav_trainer_class_details"
+            app:destination="@id/nav_trainer_class_details" />
+        <action
+            android:id="@+id/action_nav_character_sheet_to_nav_pokemon_details"
+            app:destination="@id/nav_pokemon_details" />
+        <action
+            android:id="@+id/action_nav_character_sheet_to_nav_move_details"
+            app:destination="@id/nav_move_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_pokedex"
+        android:name="com.sylphid.ptupokedexcharactermaker.view.PokedexFragment"
+        >
+
+        <action
+            android:id="@+id/action_nav_pokedex_to_nav_pokemon_details"
+            app:destination="@id/nav_pokemon_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_pokemon_details"
+        android:name="com.sylphid.ptupokedexcharactermaker.view.PokemonDetailsFragment"
+        >
+
+        <action
+            android:id="@+id/action_nav_pokemon_details_to_nav_move_details"
+            app:destination="@id/nav_move_details" />
+        <action
+            android:id="@+id/action_nav_pokemon_details_to_nav_abilities"
+            app:destination="@id/nav_abilities" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_trainer_class_list"
+        android:name="com.sylphid.ptupokedexcharactermaker.view.TrainerClassListFragment"
+        >
+
+        <action
+            android:id="@+id/action_nav_trainer_class_list_to_nav_trainer_class_details"
+            app:destination="@id/nav_trainer_class_details" />
+        <action
+            android:id="@+id/action_nav_trainer_class_list_to_nav_abilities"
+            app:destination="@id/nav_abilities" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_abilities"
+        android:name="com.sylphid.ptupokedexcharactermaker.view.AbilitiesListFragment"
+        >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_trainer_class_details"
+        android:name="com.sylphid.ptupokedexcharactermaker.view.TrainerClassDetailsFragment"
+        >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_move_details"
+        android:name="com.sylphid.ptupokedexcharactermaker.view.MoveDetailsFragment"
+        android:label="fragment_move_details"
+        tools:layout="@layout/fragment_move_details" />
+
+
+</navigation>
